@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "name": "Moja playlista",
+  "songs": [
+    {
+      "title": "Mój ból jest większy niż twój",
+      "artist": {
+        "firstName": "Kazik",
+        "lastName": "Staszewski"
+      }
+    },
+    {
+      "title": "Wyjechali na wakacje",
+      "artist": {
+        "firstName": "Kult",
+        "lastName": null
+      }
+    }
+  ]
+}

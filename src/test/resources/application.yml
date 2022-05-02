@@ -1,0 +1,24 @@
+# logging.level.org.springframework.security=DEBUG
+logging:
+  file:
+    name: /tmp/playlist/play-list.log
+  level.org.springframework.boot.autoconfigure.jdbc: trace
+
+playlist:
+  nameTemplate: Cokolwiek innego niż test
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:playlist
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  liquibase:
+    enabled: false
